@@ -26,10 +26,10 @@ public class BookMyStayApp {
         BookingRequestQueue bookingQueue = new BookingRequestQueue();
 
         // Create booking requests
-        bookingQueue.addRequest(new Reservation("Abhi", "Single"));
-        bookingQueue.addRequest(new Reservation("Subha", "Single"));
-        bookingQueue.addRequest(new Reservation("Vanmathi", "Suite"));
-
+       // Create booking requests
+        bookingQueue.addRequest(new Reservation("Abhi", "Single Room"));
+        bookingQueue.addRequest(new Reservation("Subha", "Single Room"));
+        bookingQueue.addRequest(new Reservation("Vanmathi", "Suite Room"));
         // Allocation service
         RoomAllocationService allocationService = new RoomAllocationService();
 
